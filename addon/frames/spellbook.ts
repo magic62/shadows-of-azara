@@ -210,7 +210,6 @@ function Init() {
     closeButton.SetSize(32, 32)
     closeButton.SetScript("OnClick", () => {
         spellFrame.Hide()
-        PlaySound(88)
     })
 
     infoFrame.SetSize(800, 175)
